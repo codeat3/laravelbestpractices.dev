@@ -29,7 +29,7 @@
             Then one day <a href="https://twitter.com/MrPunyapal">Punyapal Shah</a> posted <a href="https://twitter.com/MrPunyapal/status/1741143417571451095">on twitter</a> about one more resource. The first thought that crossed my mind was to host his version on this domain by pulling wiki pages through github action and host it as a doc. And while doing that I thought why can't we just host all github markdown resources on this domain (only if they are not hosted on individual domain). This needs little work to figure out how it is to be done. Till then it will act as an archive of all resource which I know of.
         </p>
         <p>
-            If you feel you know just the good candidate to be added to the list & <a>create a PR here</a>.
+            If you feel you know just the good candidate to be added to the list & <a href="https://github.com/codeat3/laravelbestpractices.dev">create a PR here</a>.
         </p>
 
     </div>
