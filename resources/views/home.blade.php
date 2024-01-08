@@ -12,8 +12,7 @@
                     <a class="hover:underline" href="{{ $resource->link }}">
                         {{ $resource->title }}
                     </a>
-                    <div class="bg-purple-500 flex items-center mx-3 px-3 py-0 leading-none rounded-lg font-medium text-xs uppercase text-white inline-block tails-selected-element"
-                        contenteditable="true">
+                    <div class="bg-gray-200 border-2  border-purple-500 flex items-center mx-3 px-3 py-0 leading-none rounded-lg font-medium text-xs uppercase text-purple-500 inline-block tails-selected-element h-7">
                         <span class="">{{ $resource->type }}</span>
                     </div>
                 </div>
