@@ -11,11 +11,12 @@ class Resource extends Model
     protected $rows = [
         [
             'id' => 1,
-            'title' => 'go-get-laravel',
-            'author' => 'Punyapal Shah',
-            'author_url' => 'https://github.com/MrPunyapal',
-            'link' => 'https://github.com/MrPunyapal/go-get-laravel/wiki',
-            'type' => 'github'
+            'title' => 'Laravel & PHP Guidelines',
+            'author' => 'Spatie',
+            'author_url' => 'https://github.com/spatie/spatie.be',
+            'link' => 'https://spatie.be/guidelines/laravel-php',
+            'repo_link' => 'https://github.com/spatie/spatie.be/tree/main/resources/views/front/pages/guidelines/pages',
+            'type' => 'article'
         ],
         [
             'id' => 2,
@@ -27,7 +28,7 @@ class Resource extends Model
         ],
         [
             'id' => 3,
-            'title' => 'Laravel Best Practices',
+            'title' => '20+ Laravel best practices, tips and tricks to use in 2023',
             'author' => 'Benjamin Crozat',
             'author_url' => 'https://github.com/benjamincrozat',
             'link' => 'https://benjamincrozat.com/laravel-best-practices',
@@ -35,11 +36,19 @@ class Resource extends Model
         ],
         [
             'id' => 4,
-            'title' => 'Laravel architecture best practices',
+            'title' => '3 crucial Laravel architecture best practices for 2023',
             'author' => 'Benjamin Crozat',
             'author_url' => 'https://github.com/benjamincrozat',
             'link' => 'https://benjamincrozat.com/laravel-architecture-best-practices',
             'type' => 'article'
+        ],
+        [
+            'id' => 5,
+            'title' => 'go-get-laravel',
+            'author' => 'Punyapal Shah',
+            'author_url' => 'https://github.com/MrPunyapal',
+            'link' => 'https://github.com/MrPunyapal/go-get-laravel/wiki',
+            'type' => 'github'
         ],
     ];
 }
