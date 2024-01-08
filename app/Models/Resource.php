@@ -24,6 +24,7 @@ class Resource extends Model
             'author' => 'Alexey Mezenin',
             'author_url' => 'https://github.com/alexeymezenin',
             'link' => 'https://github.com/alexeymezenin/laravel-best-practices',
+            'repo_link' => null,
             'type' => 'github'
         ],
         [
@@ -32,6 +33,7 @@ class Resource extends Model
             'author' => 'Benjamin Crozat',
             'author_url' => 'https://github.com/benjamincrozat',
             'link' => 'https://benjamincrozat.com/laravel-best-practices',
+            'repo_link' => null,
             'type' => 'article'
         ],
         [
@@ -40,6 +42,7 @@ class Resource extends Model
             'author' => 'Benjamin Crozat',
             'author_url' => 'https://github.com/benjamincrozat',
             'link' => 'https://benjamincrozat.com/laravel-architecture-best-practices',
+            'repo_link' => null,
             'type' => 'article'
         ],
         [
@@ -48,6 +51,7 @@ class Resource extends Model
             'author' => 'Punyapal Shah',
             'author_url' => 'https://github.com/MrPunyapal',
             'link' => 'https://github.com/MrPunyapal/go-get-laravel/wiki',
+            'repo_link' => null,
             'type' => 'github'
         ],
         [
@@ -56,6 +60,7 @@ class Resource extends Model
             'author' => 'Darwin Biler',
             'author_url' => 'https://github.com/buonzz',
             'link' => 'https://github.com/laraveltherightway/laraveltherightway.github.io/',
+            'repo_link' => null,
             'type' => 'github'
         ],
     ];
