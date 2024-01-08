@@ -9,7 +9,7 @@
             data-rounded="rounded-lg" data-rounded-max="rounded-full">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl" data-primary="purple-500">
                 <div class="flex">
-                    <a href="{{ $resource->link }}">
+                    <a class="hover:underline" href="{{ $resource->link }}">
                         {{ $resource->title }}
                     </a>
                     <div class="bg-purple-500 flex items-center mx-3 px-3 py-0 leading-none rounded-lg font-medium text-xs uppercase text-white inline-block tails-selected-element"
@@ -20,13 +20,11 @@
 
 
             </h3>
-            <div>
-                by <a class="underline italic text-gray-600 hover:text-gray-800"
+            <div class="text-gray-600">
+                by <a class="underline italic font-bold text-gray-400 hover:text-gray-800"
                     href="{{ $resource->author_url }}">{{ $resource->author }}</a>
             </div>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-                Our platform works with your content to provides insights and metrics on how you can grow your
-                business and scale your infastructure.</p>
+
         </div>
     @endforeach
 
