@@ -50,5 +50,13 @@ class Resource extends Model
             'link' => 'https://github.com/MrPunyapal/go-get-laravel/wiki',
             'type' => 'github'
         ],
+        [
+            'id' => 6,
+            'title' => 'Laravel the right way',
+            'author' => 'Darwin Biler',
+            'author_url' => 'https://github.com/buonzz',
+            'link' => 'https://github.com/laraveltherightway/laraveltherightway.github.io/',
+            'type' => 'github'
+        ],
     ];
 }
