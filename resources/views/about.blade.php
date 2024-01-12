@@ -11,6 +11,14 @@
             Well just another archive of good resources for Best Laravel Practices.
         </p>
         <p>
+            <strong>Todo:</strong><br />
+            <ul>
+                <li>
+                    Get the mardown docs hosted on individual route using doc generator, which are currently not hosted on their independent domain.
+                </li>
+            </ul>
+        </p>
+        <p>
             <span class="block font-bold">
                 Story:
             </span>
